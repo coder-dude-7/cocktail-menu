@@ -1,38 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+body {
+  background: whitesmoke;
+  width: 100vw;
+}
+
 .App {
   text-align: center;
+  /*background: #3e4b37;*/
+  background: whitesmoke;
+  margin: 0 auto;
+  /*color: #be3b4c;*/
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cocktail_list{
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.category_header {
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cocktail_holder {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  height: auto;
+  position: relative;
+}
+
+.cocktail {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  max-width: 75vw;
+}
+
+.image_holder{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 75vw;
+  background: whitesmoke;
 }
 
-.App-link {
-  color: #61dafb;
+.image_holder_recipe{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 75vw;
+  background: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cocktail_image{
+  max-width: 500px;
+  padding: 20px;
 }
+
+.cocktail_image_recipe{
+  max-width: 500px;
+  /*filter: grayscale(100%);*/
+  opacity: 50%;
+  padding: 20px;
+}
+
+.cocktail_header {
+  width: 100%;
+  /*padding: 5px;*/
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  /*color: whitesmoke;
+  background: lightsteelblue;*/
+  /*border: thin black solid;*/
+}
+
+.cocktail_description {
+  background: whitesmoke;
+  padding: 5px;
+  font-size: small;
+  width: 80%;
+  text-align: justify;
+  /*font-weight: 300;*/
+}
+
+.overlay{
+  position: absolute;
+  /*transform: translate(-50%, 0%);*/
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+  text-align: left;
+  background: #FFF;
+  color: black;
+  /*border: lightsteelblue thin solid;*/
+  z-index: 10;
+}
+
+.cocktail_ingredients{
+  font-size: small;
+  list-style: none;
+  background: transparent;
+  /*padding: 20px;*/
+}
+
+.cocktail_ingredients > ul {
+  list-style: none;
+  font-size: medium;
+}
+
+.cocktail_instructions{
+  list-style: none;
+  background: transparent;
+}
+
+.cocktail_instructions > ol {
+  /*list-style: none;*/
+  /*list-style: -moz-ethiopic-numeric;*/
+  font-size: medium;
+}
+
+.cocktail_optionals{
+  font-size: small;
+  list-style: none;
+  background: transparent;
+}
+
+.cocktail_optionals > ul {
+  list-style: none;
+  font-size: medium;
+}
+
+.overlay_headers {
+  font-size: large;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.overlay_title {
+  font-size: larger;
+  text-align: center;
+}
+

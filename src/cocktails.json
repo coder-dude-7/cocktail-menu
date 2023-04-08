@@ -1,0 +1,388 @@
+{
+    "cocktails": [
+        {
+            "name": "Old Fashioned",
+            "description": "A traditional whisky cocktail with bitters, Soda Water and a simple orange garnish.",
+            "imagePath": "./images/oldfashioned.webp",
+            "ingredients": [
+                {
+                    "name": "Simple Syrup",
+                    "quantity": "10",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Angostura Bitters",
+                    "quantity": "2",
+                    "measurement": "dashes"
+                },
+                {
+                    "name": "Whisky",
+                    "quantity": "60",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Orange Slice",
+                    "quantity": "1",
+                    "measurement": "slice"
+                }
+
+            ],
+            "optional": [
+                {
+                    "name": "Water",
+                    "quantity": "1",
+                    "measurement": "Dash"
+                },
+                {
+                    "name": "Maraschino Cherry",
+                    "quantity": "1",
+                    "measurement": "cherry"
+                }
+            ],
+            "instructions": [
+                "Put the sugar, bitters and Water in a small tumbler. Mix until the sugar dissolves if using granulated",
+                "Fill your glass with ice and stir in the whisky.",
+                "Garnish with the orange and cherry."
+            ]
+        },
+        {
+            "name": "French Martini",
+            "description": "Not actually a Martini at all, it comprises a simple combination of three ingredients: Vodka, Chambord, and Pineapple Juice",
+            "imagePath": "./images/frenchmartini.webp",
+            "ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": "40",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Chambord",
+                    "quantity": "20",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Pineapple Juice",
+                    "quantity": "60",
+                    "measurement": "ml"
+                }
+            ],
+            "optional": [
+                {
+                    "name": "Pineapple Wedge",
+                    "quantity": "1",
+                    "measurement": "wedge"
+                }
+            ],
+            "instructions": [
+                "Shake the Vodka, Chambord and Pineapple Juice with ice really hard until the Pineapple Juice froths up a bit",
+                "Strain into the glass and garnish with the Pineapple Wedge."
+            ]
+        },
+        {
+            "name": "Banker's Lunch",
+            "description": "Vodka, Vermouth, and Cointreau mixed with freshly squeezed grapefruit",
+            "imagePath": "./images/bankerslunch.jpeg",
+            "ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": "45",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Vermouth",
+                    "quantity": "15",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Cointreau",
+                    "quantity": "15",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Grapefruit Juice",
+                    "quantity": "45",
+                    "measurement": "ml"
+                }
+            ],
+            "optional": [],
+            "instructions": [
+                "Shake all ingredients with ice and strain into glass.",
+                "Garnish with grapefruit zest."
+            ]
+        },
+        {
+            "name": "Pornstar Martini",
+            "description": "Its creator, bartender Douglas Ankrah, thought it was what a porn star would order",
+            "imagePath": "./images/pornstarmartini.webp",
+            "ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": "60",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Passoa",
+                    "quantity": "30",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Simple Syrup",
+                    "quantity": "15",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Lime Juice",
+                    "quantity": "15",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Passion Fruit",
+                    "quantity": "2",
+                    "measurement": "whole passion fruits"
+                }
+            ],
+            "optional": [
+                {
+                    "name": "Prosecco",
+                    "quantity": "25",
+                    "measurement": "ml"
+                }
+            ],
+            "instructions": [
+                "Scoop the seeds from one of the passion fruits into the glass of a cocktail shaker",
+                "Add the Vodka, passoa, lime juice, sugar syrup, and a handful of ice then shake well,",
+                "Strain into 2 martini glasses, then add half a passion fruit to each. Serve immediately with a shot of prosecco."
+            ]
+        },
+        {
+            "name": "Espresso Martini",
+            "description": "Sumptuous mix of Vodka, coffee liqueur and espresso.",
+            "imagePath": "./images/espressomartini.jpeg",
+            "ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": "100",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Espresso",
+                    "quantity": "50",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Kahlua",
+                    "quantity": "50",
+                    "measurement": "ml"
+                }
+            ],
+            "optional": [
+                {
+                    "name": "Coffee Beans",
+                    "quantity": "4",
+                    "measurement": "beans"
+                },
+                {
+                    "name": "Simple Syrup",
+                    "quantity": "15",
+                    "measurement": "ml"
+                }
+            ],
+            "instructions": [
+                "pour 1 tbsp into a cocktail shaker along with a handful of ice, the Vodka, espresso and coffee liqueur. Shake until the outside of the cocktail shaker feels icy cold.", 
+                "Strain into the chilled glasses. Garnish each one with coffee beans if you like."
+            ]
+        },
+        {
+            "name": "Raspberry Muddler",
+            "description": "A sweet and tasty raspberry and Vodka mix",
+            "imagePath": "./images/raspberrybramble.jpeg",
+            "ingredients": [
+                {
+                    "name": "Raspberry",
+                    "quantity": "6",
+                    "measurement": "raspberries"
+                },
+                {
+                    "name": "Vodka",
+                    "quantity": "75",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Simple Syrup",
+                    "quantity": "15",
+                    "measurement": "ml"
+                }
+            ],
+            "optional": [],
+            "instructions": [
+                "Muddle raspberries with Simple Syrup.",
+                "Fill glass with crushed ice",
+                "Add Vodka, stir, and serve."
+            ]
+        },
+        {
+            "name": "Coquito",
+            "description": "Festive Puerto Rican drink made from sweet coconut and rum. No egg.",
+            "imagePath": "./images/coquito.webp",
+            "ingredients": [
+                {
+                    "name": "Cream of Coconut",
+                    "quantity": "320",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Coconut Milk",
+                    "quantity": "400",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Sweetened Condensed Milk",
+                    "quantity": "397",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Evaporated Milk",
+                    "quantity": "340",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Spiced Rum",
+                    "quantity": "350",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": "1",
+                    "measurement": "tspn"
+                }
+            ],
+            "optional": [
+                {
+                    "name": "Cinnamon Stick",
+                    "quantity": "1",
+                    "measurement": "stick"
+                },
+                {
+                    "name": "Nutmeg",
+                    "quantity": "1",
+                    "measurement": "sprinkle"
+                }
+            ],
+            "instructions": [
+                "Pour the rum, coconut milk, coconut cream, condensed milk, evaporated milk and vanilla into a blender. Blitz to combine, then pour into a large jug and add the cinnamon stick.",
+                "Chill for at least 3-4 hours, or overnight. Lasts in the fridge up to 4 days.",
+                "Serve and sprinkle nutmeg over."
+            ]
+        },
+        {
+            "name": "Mojito",
+            "description": "Classic refreshing cocktail, a mix of rum, lime and mint",
+            "imagePath": "./images/mojito.webp",
+            "ingredients": [
+                {
+                    "name": "White Rum",
+                    "quantity": "60",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Lime Juice",
+                    "quantity": "15",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Soda Water",
+                    "quantity": "15",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Mint",
+                    "quantity": "14",
+                    "measurement": "leaves"
+                },
+                {
+                    "name": "Sugar Syrup",
+                    "quantity": "10",
+                    "measurement": "ml"
+                }
+            ],
+            "optional": [],
+            "instructions": [
+                "Muddle the lime juice, sugar and handful of mint leaves in a small jug, crushing the mint as you go",
+                "Pour into a tall glass and add a handful of ice.",
+                "Pour over the rum, stirring with a long-handled spoon. Top up with Soda Water, garnish with mint and serve."
+            ]
+        },
+        {
+            "name": "Daiquiri",
+            "description": "Crisp, light and refreshing. Delicately simple yet with perfectly balanced complexity and flavours.",
+            "imagePath": "./images/daiquiri.jpeg",
+            "ingredients": [
+                {
+                    "name": "White Rum",
+                    "quantity": "50",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Lime Juice",
+                    "quantity": "15",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Sugar Syrup",
+                    "quantity": "10",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Lime",
+                    "quantity": "1",
+                    "measurement": "whole"
+                }
+            ],
+            "optional": [],
+            "instructions": [
+                "Cut lime zest twist from lime before squeezing",
+                "Shake twist and remaining ingredients and fine strain into glass.",
+                "Garnish with lime wedge and serve."
+            ]
+        },
+        {
+            "name": "Old Cuban Highball",
+            "description": "A tasty bite-sized alternative to a Mojito. Rum, lime, and prosecco.",
+            "imagePath": "./images/oldcubanhighball.jpeg",
+            "ingredients": [
+                {
+                    "name": "White Rum",
+                    "quantity": "40",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Lime Juice",
+                    "quantity": "20",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Sugar Syrup",
+                    "quantity": "10",
+                    "measurement": "ml"
+                },
+                {
+                    "name": "Mint",
+                    "quantity": "7",
+                    "measurement": "leaves"
+                },
+                {
+                    "name": "Prosecco",
+                    "quantity": "80",
+                    "measurement": "ml"
+                }
+            ],
+            "optional": [],
+            "instructions": [
+                "Shake rum, lime juice, syrup, and mint with ice",
+                "Strain into an ice filled glass and top with prosecco",
+                "Garnish with mint leaf."
+            ]
+        }
+
+    ]
+}
